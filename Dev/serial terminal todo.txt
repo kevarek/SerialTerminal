@@ -1,0 +1,22 @@
+ubyla funkcionalita log to file.... nahrazeno pomocí save to file
+	v kombinaci s tím, že se po pøesažení limitu 15K znakù v oknì smaže prvních 5K je potøeba dodìlat funkcionalitu save to file
+	save to file musí uložit komplet obsah olddatabufferu + komplet aktuální obsah terminalu
+	
+	clear all musí smazat i olddatabuffer
+	select all ještì nevím
+
+
+Ikona
+
+
+kdyz je aktivni disable redraw, okno musi byt sede (ale lepe nejak napsat ze redraw je bvypnute), ale kdyz pak vypnu logovani, tak okno je opet aktivni i kdyz je redraw stale vypnute
+
+kdyz je v buffer pro disable redraw hodne plnej tak se nejak pomalu vlozi do textboxu... chtelo by to nastavit maximalni velikost nebo nejak lepe vkladat
+
+mozna dodelat funkcionalitu log to txt and dont show
+
+mozna logovat do txt ale jako binary at to nedela bordel s kodovanim
+
+totalne neslape prijem binarnich dat, prevod na zobrazeni hex hodnot atd
+
+po odpojeni zrusit autosending

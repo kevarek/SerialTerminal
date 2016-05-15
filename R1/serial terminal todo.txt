@@ -1,0 +1,38 @@
+ 
+ 
+ rozdìlit program na komponenty:
+	komponenta SerialPortOpenner
+		asynchronnì otevírá com port, vrací referenci na otevøený port
+		komponenty:
+			PortList, BaudRate, OpenCloseBtn
+		metody:
+			OpenPort
+			ClosePort
+		eventy:
+			port otevøen
+			port uzavøen
+			chyba odesílání dat
+			data pøijata
+		Properties:
+			MinWinHeight
+			MinWinWidth
+ 
+ 
+ 
+ 1) možnost, aby vždy mezi pøijatými a odeslanými daty byl nový øádek - bude v context menu konzole
+ 2) pøi zobrazování spec znakù znak crlf by mìl posunout kurzor na další øádek.
+ 3) defaultnì je terminální znak v command line stejny jako v konzoli
+ 4) barvièky v konzoli
+ 
+ 5) nápovìda
+ 6)posílání pøíkazù po øádcích z txt v intervalu
+ 7) timestampy v concole win
+ 
+ 8!!!!) dodelat moznost primeho posilani znaku z konzole a nebo editovani obsahu
+ 
+ moznost logu:
+	ukladat vse co prijde
+	ukladat pouze regex vysledky
+	
+9) po connect nastavit focus na poslední z dvojice consolebox/cmdbox nebo vyjímeènì pøímo na cmdbox
+
